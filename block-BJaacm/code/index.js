@@ -1,1 +1,15 @@
-.
+- `user == newUser;` // output and reason true
+- `user === newUser;` // true
+- `user.name === newUser.name;`// true
+- `user.name == newUser.name;`//true
+- `user.sibling == newUser.sibling;`// true
+- `user.sibling === newUser.sibling;`// true
+- `user.sibling == allBrothers;`// false
+- `user.sibling === allBrothers;`// false
+- `brothersCopy === allBrothers;`// false
+- `brothersCopy == allBrothers;`// false
+- `brothersCopy == user.sibling;`// true
+- `brothersCopy === user.sibling;`// true
+- `brothersCopy[0] === user.sibling[0];`// true
+- `brothersCopy[1] === user.sibling[1];`// true
+- `user.sibling[1] === newUser.sibling[1];`// true
