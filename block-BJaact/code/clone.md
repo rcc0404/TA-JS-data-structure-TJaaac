@@ -10,12 +10,12 @@ let person2 = person;
 
 person.firstName = 'Arya';
 
-console.log(person2.firstName); // output
-console.log(person.firstName); // output
-console.log(person.lastName); // output
-console.log(person == person2); // output
-console.log(person === person2); // output
-console.log(person.lastName === person2.lastName); // output
+console.log(person2.firstName); // output Arya
+console.log(person.firstName); // output Arya
+console.log(person.lastName); // output Doe
+console.log(person == person2); // output true
+console.log(person === person2); // output true
+console.log(person.lastName === person2.lastName); // output true
 ```
 
 2. Write the output with reason:
